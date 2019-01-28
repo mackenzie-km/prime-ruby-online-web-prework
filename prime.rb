@@ -19,7 +19,7 @@ prime_array
 remainder_nums = divider_function(number)
 if (prime_array.include?(number)) 
   return true
-elsif (remainder_nums.include?(0)) || (Math.sqrt(number.abs)%1 == 0)
+elsif (remainder_nums == false || (Math.sqrt(number.abs)%1 == 0)
   return false
 else 
   return true
