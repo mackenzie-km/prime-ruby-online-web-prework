@@ -18,7 +18,7 @@ def prime?(number)
 prime_array
 if (prime_array.include?(number)) 
   return true
-elsif number <= 0 
+elsif number <= 1 
   return false
 elsif divider_function(number) || (Math.sqrt(number.abs)%1 == 0)
   return false
