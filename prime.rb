@@ -5,6 +5,10 @@ nums.each do |num|
 end
 end
 
+def prime_array
+  prime_array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41]
+end
+
 def prime?(number)
 prime_array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41]
 if (prime_array.include?(number)) 
@@ -21,3 +25,4 @@ else
   return true
 end
 end
+
