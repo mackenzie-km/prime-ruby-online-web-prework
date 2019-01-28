@@ -13,7 +13,7 @@ end
 require "pry"
 def prime?(number)
 prime_array
-divider_function(number)
+remainder_nums = divider_function(number)
 if (prime_array.include?(number)) 
   return true
 elsif (remainder_nums.include?(0)) || (Math.sqrt(number.abs)%1 == 0)
