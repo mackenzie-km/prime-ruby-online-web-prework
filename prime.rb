@@ -6,7 +6,7 @@ end
 def divider_function(number)
 prime_array
 remainder_nums = []
-prime_array.each do |remainder|
+prime_array.each do |number|
     remainder_nums.push(number%prime_array)
 end
 if (remainder_nums.include?(0)) 
