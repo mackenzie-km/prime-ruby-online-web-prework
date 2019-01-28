@@ -4,9 +4,9 @@ nums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41]
 remainder_nums = []
 nums.each do |num|
     return remainder_nums.push(number%num)
+end
+end
 binding.pry
-end
-end
 
 def prime_array
   prime_array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41]
