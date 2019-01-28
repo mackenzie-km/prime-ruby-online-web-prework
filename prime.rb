@@ -17,15 +17,9 @@ prime_array
 if (prime_array.include?(number)) 
   return true
 elsif (Math.sqrt(number.abs)%1 == 0 ||
-(prime_array.include?(number*-1)) ||
-(number)%2 == 0 ||
-(number)%3 == 0 ||
-(number)%5 == 0 ||
-(number)%7 == 0) || 
-divider_function(number) == 0 
+
+elsif remainder_nums.include?(0) 
   return false
-else
-  return true
 end
 end
 
