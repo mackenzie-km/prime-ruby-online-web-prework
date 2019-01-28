@@ -14,7 +14,7 @@ end
 
 def prime?(number)
 prime_array
-if (prime_array.include?(number.abs)) 
+if (prime_array.include?(number)) 
   return true
 elsif (Math.sqrt(number.abs)%1 == 0 ||
 
