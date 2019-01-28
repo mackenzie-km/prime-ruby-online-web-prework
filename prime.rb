@@ -1,18 +1,18 @@
+def prime_array
+  prime_array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41, 105557]
+end
+
 def divider_function(number)
-nums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41, 105557]
+prime_array
 remainder_nums = []
 nums.each do |num|
-    return remainder_nums.push(number%num)
+    return remainder_nums.push(number%prime_array)
 end
   if (remainder_nums.include?(0)) 
     return false
 end
 end
 
-
-def prime_array
-  prime_array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41, 105557]
-end
 
 def prime?(number)
 prime_array
