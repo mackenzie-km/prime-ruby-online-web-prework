@@ -6,6 +6,8 @@ nums.each do |num|
 end
   if (remainder_nums.include?(0)) 
     return false
+  else
+    return true
 end
 end
 
