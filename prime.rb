@@ -3,8 +3,8 @@ def divider_function(number)
 nums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 41]
 nums.each do |num|
     remainder_nums = number%num
-  binding.pry
 end
+binding.pry
 end
 
 def prime_array
